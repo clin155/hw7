@@ -94,7 +94,7 @@ def make_players_table(data, cur, conn):
 def nationality_search(countries, cur, conn):
     placeholders = ','.join(['?' for _ in countries])
 
-    cur.execuete(f"""
+    cur.execute(f"""
         SELECT name, position_id, nationality
         FROM Players
         WHERE nationality IN ({placeholders})
