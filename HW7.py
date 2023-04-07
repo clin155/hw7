@@ -85,7 +85,7 @@ def make_players_table(data, cur, conn):
 # Finish the function nationality_search
 
     # This function takes 3 arguments as input: a list of countries,
-    # the database cursor, and database connection object. 
+    # the database ecursor, and database connection object. 
  
     # It selects all the players from any of the countries in the list
     # and returns a list of tuples. Each tuple contains:
