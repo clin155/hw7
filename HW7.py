@@ -89,7 +89,7 @@ def make_players_table(data, cur, conn):
  
     # It selects all the players from any of the countries in the list
     # and returns a list of tuples. Each tuple contains:
-        # the player'as name, their position_id, and their nationality.
+        # the player's name, their position_id, and their nationality.
 
 def nationality_search(countries, cur, conn):
     placeholders = ','.join(['?' for _ in countries])
